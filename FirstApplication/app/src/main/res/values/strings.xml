@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">FirstApplication</string>
     <string name="hello_world">Xin Chào!</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
     <string name="gioi_thieu">Tôi là Đỗ Quang Lâm, là một lập trình viên di động xém chuyên nghiệp(vài năm nữa).</string>
 </resources>
