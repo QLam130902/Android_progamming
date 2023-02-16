@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="258dp"
+        android:layout_height="45dp"
+        android:text="Tổng"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <EditText
+        android:id="@+id/txtSo1"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/txtSo2"
+        android:layout_width="319dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/txtSo1"
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/lblKetQua"
+        android:layout_width="174dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        android:text="Kết quả"
+        app:layout_constraintTop_toBottomOf="@+id/txtSo2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Button
+        android:id="@+id/btnTinhTong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="tinhtong"
+        android:text="Tính tổng"
+        app:layout_constraintTop_toBottomOf="@+id/lblKetQua"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</android.support.constraint.ConstraintLayout>
