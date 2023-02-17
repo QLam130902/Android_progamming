@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thay đổi ngôn ngữ</string>
+    <string name="txt_name">Nhập tên ở đây</string>
+    <string name="bt_ok">Xác nhận</string>
+    <string name="txt_showname">Xin chào</string>
+
+
+</resources>

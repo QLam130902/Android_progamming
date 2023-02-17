@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChangeLanguage</string>
+    <string name="txt_name">Name here</string>
+    <string name="bt_ok">OK</string>
+    <string name="txt_showname">Hello</string>
+
+
+</resources>
